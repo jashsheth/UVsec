@@ -102,7 +102,7 @@ void loop() {
   }
   if (digitalRead(sw) == LOW)
   {
-    delay(50);
+    delay(85);
     if (digitalRead(sw) == LOW)
     {
       while (digitalRead(sw) == LOW)
